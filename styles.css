@@ -1,0 +1,141 @@
+body {
+  width: 500px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  color: #333;
+  font-weight: 100;
+}
+
+nav {
+  margin-top: 10px;
+  background: #f6f8f9; /* Old browsers */
+  background: -moz-linear-gradient(top, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6f8f9), color-stop(50%,#e5ebee), color-stop(51%,#d7dee3), color-stop(100%,#f5f7f9)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #abe;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #567;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #444;
+}
+
+#login-buttons {
+  font-weight: 400;
+}
+#login-buttons a {
+  text-decoration: none;
+}
+
+h2 {
+  border-bottom: 1px solid #abe;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+input[name="message"] {
+  width: 81%;
+  padding: 7px 10px;
+  border-radius: 3px;
+  border: 1px solid #999;
+  box-shadow: inset 0px 1px 2px 0px #ccc;
+}
+
+input[value="Send"],
+input[value="Delete"],
+input[value="Follow"],
+input[value="Unfollow"] {
+  padding: 6px 19px 7px 19px;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[value="Send"] {
+  border: 1px solid #3498db;
+  background-color: #3498db;
+}
+
+input[value="Delete"] {
+  background-color: #ecf0f1;
+  border: 1px solid #bdc3c7;
+  color: #7f8c8d;
+  text-shadow: 0px 1px 0px #fff;
+  float: right;
+  margin-top: -17px;
+}
+
+input[value="Delete"] {
+  background-color: #ecf0f1;
+  border: 1px solid #bdc3c7;
+  color: #7f8c8d;
+  text-shadow: 0px 1px 0px #fff;
+}
+
+input[value="Follow"] {
+  background-color: #2ecc71;
+  border: 1px solid #27ae60;
+}
+input[value="Unfollow"] {
+  background-color: #f39c12;
+  border: 1px solid #e67e22;
+}
+
+input[name="username-search"] {
+  margin-top: 10px;
+  width: 477px;
+  padding: 10px 10px;
+  border: 1px solid #999;
+  border-radius: 3px;
+  font-size: 16px;
+  box-shadow: inset 0px 1px 3px 0px #ccc;
+}
+
+.countdown {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+ul li {
+  min-height: 38px;
+  line-height: 30px;
+}
+
+ul li input[value="Delete"] {
+  margin-top: 0px;
+}
+
+ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #2980b9;
+}
+
+h2 a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+#follow input, #unfollow input {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
